@@ -1,3 +1,5 @@
+![workflow](https://github.com/ihcomega56/github-actions-example/actions/workflows/build-and-publish.yml/badge.svg)
+
 リクエストしたテキストをそのまま返します
 
 ```shell
