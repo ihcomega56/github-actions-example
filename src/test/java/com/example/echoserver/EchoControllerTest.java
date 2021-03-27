@@ -34,7 +34,7 @@ public class EchoControllerTest {
                 .content("hello")
                 .contentType(MediaType.TEXT_PLAIN)
                 .accept(MediaType.TEXT_PLAIN))
-                .andExpect(content().string(matchesPattern("yo")));
+                .andExpect(content().string(matchesPattern("hello")));
     }
 }
 
